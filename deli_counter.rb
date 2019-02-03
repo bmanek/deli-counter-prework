@@ -8,7 +8,6 @@ def line(array)
   else
     array.each.with_index(1) do
       |name, index| display << "#{index}. #{name}"
-    display.join 
     end
   end
 end
