@@ -2,14 +2,14 @@ katz_deli = []
 
 
 def line(array)
-  display = ["The line is currently:"]
+  display = []
   if array.length == 0
     puts "The line is currently empty."
   else
-    array.each.with_index(1) do
-      |name, index| display.push "#{index}. #{name}"
+    array.each.with_index(1) do |name, index| 
+      display.push "#{index}. #{name}"
     end
-    puts 
+    puts "The line is currently: #{line.join(" ")}"
   end
 end
 
