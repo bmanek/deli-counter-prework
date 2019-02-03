@@ -9,7 +9,7 @@ def line(array)
     array.each.with_index(1) do |name, index| 
       display.push "#{index}. #{name}"
     end
-    puts "The line is currently: #{line.join(" ")}"
+    puts "The line is currently: #{display.join(" ")}"
   end
 end
 
